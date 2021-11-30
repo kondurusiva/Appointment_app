@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 16px;
+  margin-right: 10px;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .star {
+    width: 24px;
+    height: 24px;
+  }
+}
+.star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.image {
+  border: none;
+  background-color: transparent;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #171f46;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}

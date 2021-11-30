@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointments-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .appointments-img {
+    display: block;
+    width: 49%;
+  }
+}
+
+.bg-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 15px;
+  width: 300px;
+}
+
+.sub-card {
+  display: flex;
+}
+
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  border-width: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.image {
+  width: 300px;
+}
+
+.hr {
+  width: 100%;
+}
+
+.stared {
+  height: 20px;
+  border-radius: 5px;
+  width: 60px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.appointment-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+}
+.filter-filled {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+.filter-empty {
+  background-color: #ffffff;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+}
+
+.appointment {
+  font-family: 'Roboto';
+  color: #171f46;
+}
